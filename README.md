@@ -1,3 +1,3 @@
 # TA2-Machine-Learning
 
-probando subida
+Lo voy subiendo lo q avancé, luego lo arreglamos xd
