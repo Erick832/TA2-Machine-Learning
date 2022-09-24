@@ -1,3 +1,12 @@
 # TA2-Machine-Learning
 
-Lo voy subiendo lo q avancé, luego lo arreglamos xd
+**Integrantes**
+
+- Erick Wilson Aronés Garcilazo U201924440
+- Ronaldo
+
+
+### **1. Descripción de los formatos utilizados para los modelos del artículo**
+
+
+- Formato OFF (Object File Format) 
