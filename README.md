@@ -1,4 +1,4 @@
-# TA2-Machine-Learning
+# Trabajo-Machine-Learning
 
 **Integrantes**
 
