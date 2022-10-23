@@ -1,6 +1,6 @@
 # 3d draw function
 import numpy as np
-import plotly.plotly as py
+import chart_studio.plotly as py
 import plotly.graph_objs as go
 from .data_prep import volume_to_point_cloud
 from plotly.offline import init_notebook_mode, iplot
@@ -32,7 +32,7 @@ def plot3d(verts, s=10, c=(105,127,155), show_grid=False):
     data = [trace]
     layout = go.Layout(
         margin=dict(l=0, r=0, b=0, t=0),
-        scene = go.Scene(
+        scene = go.layout.Scene(
             xaxis=dict(visible=show_grid),
             yaxis=dict(visible=show_grid),
             zaxis=dict(visible=show_grid)
