@@ -10,7 +10,7 @@ class CustomLoader(data.Dataset):
         self.file = file
         self.out_folder = out_folder
         self.subset = subset
-        self.data = np.load(file).item()[self.subset]
+        self.data = np.load(file,allow_pickle=True).item()[self.subset]
         self.load_labels()
         self.fracture_opts = kwargs
         

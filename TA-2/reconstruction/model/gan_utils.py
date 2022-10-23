@@ -2,7 +2,8 @@ import numpy as np
 from keras import backend as K
 from keras.models import Model
 from keras.layers import Input
-from keras.layers.merge import _Merge
+# from keras.layers.merge import _Merge
+from keras.layers import Layer as _Merge
 from keras.optimizers import Adam
 from functools import partial
 
